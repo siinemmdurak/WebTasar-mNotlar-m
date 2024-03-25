@@ -1,0 +1,79 @@
+<!DOCTYPE html>  <!--En başa versiyon yazmak zorundayız.-->
+<html> <!-- html işaretleme dilidir. -->
+    <head> <!--Head gözle görmediğimiz tüm içerikler burada gözükür. -->
+          <title>Web Tasarim Dersi 2024</title>  <!-- sayfanın başlığı--> 
+          <meta name="Description" content="Web Tasarim Dersi Örnek Proje" > <!-- Sitemizin başlığı.-->
+          <meta name="Keywords" content="Web,Tasarim,Ders,Proje" > <!-- Yazdığımız anahtar kelimeler sitemiz hakkında bilgi verir.-->
+          <meta name="googlebot" content="noarchive" > <!--site sahiplerinin botunun sayfa içeriğini nasıl işleyeceğini belirler.-->
+          <meta name="Revisit-After" content="1-days" > <!--Tarayıcıların yeniden ziyaret etme sıklığını belirlemesi -->
+          <meta name="robots" content="index,follow,products,contact" > <!--sitenin arama motorlarına belirli yönergeler verir.-->
+          <meta name="copyright" content="2009-2024 copyright | ybs.deu.edu.tr" > <!--sayfa telif hakkıyla korunur.-->
+          <meta http_equiv ="content-language" content="tr"> <!--sayfanın içeriği hangi dilde.-->
+          <meta charset="UTF-8" > <!--sayfanın karakter kodlamasını belirtir.-->
+    </head>
+    <body> <!-- Gözle gördüğümüz select, input gibi tasarımsal ürünler burada. -->
+          <h1>Web Tasarım Dersi 2024</h1>
+          <h2>DEÜ YBS BÖLÜMÜ</h2>
+          <h3> Bu bir paragraftır</h3>
+          <p> Yaşlanmayla mücadele ve bla bla bla bla </p> <!-- Birbirleri ile aynılar ama boşluk koymana izin vermez.-->
+          <pre> </pre>
+          <abbr title="Yönetim Bilişim Sistemleri">YBS</abbr> <!-- Kısaltmaya değince açılımını verir.-->
+          <p>X<sub>2</sub></p> <!--Sub aşağı indirir.-->
+          <p>X<sup>2</sup></p> <!--Sup yukarı çıkartır.-->
+          <b>YBS</b>  <!-- yazıyı kalın yapar ama strong tercih ederiz.-->
+          <strong>YBS</strong> <!--SEO-->
+          <i>DEÜ</i>  <!-- yazıyı italik yapar emi tercih ederiz.-->
+          <em> DEÜ</em> <!--SEO-->
+          <br>
+          <cite></cite>
+          <code></code>
+          <img src="c:\Users\molze\OneDrive\Masaüstü\WhatsApp Görsel 2024-03-07 saat 19.08.38_f49cc8dc.jpg" alt="birbirine aşık iki kişi" title="aşık"/>
+          <!--Unordered list --> 
+    <ul>
+        <li>Volvo</li>   
+        <li>Mercedes</li>
+    </ul>
+        <!--Ordered List-->
+    <ol>
+        <li>İİBF</li>
+        <li>
+            <ul>
+                <li>YBS</li>
+                <li>İşletme</li>
+            </ul>
+        </li>
+        <li>Mühendislik</li>
+    </ol>    
+          <a href="https://www.deu.edu.tr">YBS</a>
+          <a href="./images/images.rar">Dosyayı indir</a>
+          <a href="mailto:canaydinn@gmail.com">mail armak için</a>
+          <a href="https://www.deu.edu.tr"> <img src="./images/indir.jpg"></a>
+          <h1 id="konu">Birinci konu</h1>
+
+          <a href="#konu"><p>Birinci konuya git</p></a>
+          <a href="https://www.deu.edu.tr" target="_blank" rel="DEÜ WEB SAYFASI"><img src="./images/indir.jpg"></a>
+
+          <table > <!-- border="1"-->
+            <tr>
+                <th>Adı</th>    <!--Yazıları koyu renk yaptı Th ile-->
+                <th>Soyadı</th>
+                <th>Sınıfı</th>
+                <th>Sevgilisi</th>
+            </tr>
+            <tr>
+                <td>Sinem</td>
+                <td>Durak</td>
+                <td>2.Sınıf</td>
+                <td>Kayra K.</td>
+            </tr>
+            <tr>
+                <td colspan="4">Birleşik</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Akıllı</td>
+                <td>Uzun</td>
+                <td>Sinem</td>
+            </tr>
+          </table>
+    </body>
+</html>
